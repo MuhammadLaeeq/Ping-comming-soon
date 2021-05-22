@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    text-align: center;
+    width:650px;
+    margin:50px  auto; 
+}
+.logo{
+    max-width:80px;
+}
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    font-size:40px;
+    padding:15px 0;
+    color: hsl(0, 0%, 59%);
+}
+
+span{
+    font-weight: 700;
+    color:#000;
+}
+p{
+    color: hsl(209, 33%, 12%);
+    font-size:18px;
+}
+.illustration{
+    width:100%;
+    margin:50px auto;
+}
+form{
+    margin-top:30px;
+}
+input{
+    width:300px;
+    border-radius: 40px;
+    padding:13px;
+    border:1px solid hsl(0, 0%, 59%);
+    opacity: 0.5;
+}
+::placeholder{
+    color:hsla(0, 0%, 59%, 0.705);
+}
+button{
+    border-radius: 40px;
+    padding:13px 50px;
+    color:#fff;
+    border: none;
+    box-shadow: 1px 2px 5px hsl(223, 87%, 63%);
+    margin-left:20px;
+    background-color: hsl(223, 87%, 63%);
+    border:1px solid hsl(0, 0%, 59%);
+}
+button:hover{
+    opacity: 0.7;
+}
+
+.social-list ul{
+list-style-type: none;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.social-list ul li i{
+    margin:0 10px;
+    color:hsl(223, 87%, 63%);
+    border:1px solid hsla(0, 0%, 59%, 0.486);
+    border-radius:50px;
+    font-size:15px;
+    padding:8px;  
+}
+.social-list ul li i:hover{
+    background-color:hsl(223, 87%, 63%);
+    color:#fff;
+}
+footer p{
+    margin-top:10px;
+    font-size:15px;
+    color:hsl(0, 0%, 59%);
+}
+
+/*Resonsive On mobile Mode*/
+
+@media screen and (max-width: 375px){
+    form input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+    button{
+        width:320px;
+        margin:0 auto;
+    }
+    main{
+        text-align: center;
+        width:350px;
+        margin:10px  auto;    
+    }
+    .logo{
+        max-width:60px;
+    }
+    h1{
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 300;
+        font-size:30px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    span{
+        font-weight: 700;
+        color:#000;
+    }
+    p{
+        color: hsl(209, 33%, 12%);
+        margin-top:-10px;
+        font-size:15px;
+    }
+    .illustration{
+        width:100%;
+        margin:50px 0;
+
+    }
+    
+}
